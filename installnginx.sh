@@ -1,6 +1,6 @@
-sudo yum install epel-release
+sudo cp nginx.repo /etc/yum.repos.d
 
-sudo yum install nginx
+sudo yum -y install nginx
 
 sudo systemctl start nginx
 
